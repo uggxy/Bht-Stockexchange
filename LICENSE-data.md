@@ -1,4 +1,4 @@
 The file BNBL_price_report_All.csv is licensed under the Creative Commons
 Attribution 4.0 International License (CC BY 4.0).
 https://creativecommons.org/licenses/by/4.0/
-Source: Royal Securities Exchange of Bhutan, https://rseb.bt
+Source: Royal Securities Exchange of Bhutan, https://rsebl.org.bt
