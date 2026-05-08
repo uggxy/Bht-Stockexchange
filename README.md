@@ -111,14 +111,6 @@ the input data.
   closing price shifted by one day, daily return and 5-day rolling
   volatility lagged by one period to prevent target leakage.
 
-## Citation
-
-If you use this code or data, please cite:
-
-> [Author], (2026). Comparative Analysis of Statistical, Machine Learning
-> and Deep Learning Models for Forecasting Bhutan National Bank Limited
-> (BNBL) Stock Prices. [Journal], [vol/issue], [pages]. DOI: [to appear]
-
 ## License
 
 [Add a license — MIT and Apache-2.0 are common choices for research
