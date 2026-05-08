@@ -47,18 +47,16 @@ raw-JSON view. Use [nbviewer](https://nbviewer.org), which is run by
 the Jupyter project and renders any size, to read the executed
 notebooks in a browser:
 
-- **Statistical**: <https://nbviewer.org/github/USER/REPO/blob/main/Arima%20%26%20Holt%20winter.ipynb>
-- **Machine learning**: <https://nbviewer.org/github/USER/REPO/blob/main/Machine%20learning%20models.ipynb>
-- **Deep learning**: <https://nbviewer.org/github/USER/REPO/blob/main/Deep%20Learning%20Models.ipynb>
-
-Replace `USER/REPO` with this repository's path on GitHub.
+- **Statistical**: <https://nbviewer.org/github/uggxy/Bht-Stockexchange/blob/main/Arima%20%26%20Holt%20winter.ipynb>
+- **Machine learning**: <https://nbviewer.org/github/uggxy/Bht-Stockexchange/blob/main/Machine%20learning%20models.ipynb>
+- **Deep learning**: <https://nbviewer.org/github/uggxy/Bht-Stockexchange/blob/main/Deep%20Learning%20Models.ipynb>
 
 ## Reproducing the analysis
 
 1. **Clone and create the environment**
    ```bash
-   git clone <REPO_URL>
-   cd <REPO>
+   git clone https://github.com/uggxy/Bht-Stockexchange.git
+   cd Bht-Stockexchange
    conda env create -f environment.yml
    conda activate stock-forecast
    ```
