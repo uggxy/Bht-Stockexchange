@@ -37,6 +37,22 @@ and script aggregates to one row per day via
 No information is dropped — only the within-day duplicates are collapsed
 to the day's closing price.
 
+## Viewing the executed notebooks
+
+The notebooks in this repository are stored with their cell outputs
+intact (so reviewers can see the results without running anything).
+The Machine-learning-models notebook is approximately 24 MB, which
+exceeds the size at which GitHub's own notebook viewer falls back to a
+raw-JSON view. Use [nbviewer](https://nbviewer.org), which is run by
+the Jupyter project and renders any size, to read the executed
+notebooks in a browser:
+
+- **Statistical**: <https://nbviewer.org/github/USER/REPO/blob/main/Arima%20%26%20Holt%20winter.ipynb>
+- **Machine learning**: <https://nbviewer.org/github/USER/REPO/blob/main/Machine%20learning%20models.ipynb>
+- **Deep learning**: <https://nbviewer.org/github/USER/REPO/blob/main/Deep%20Learning%20Models.ipynb>
+
+Replace `USER/REPO` with this repository's path on GitHub.
+
 ## Reproducing the analysis
 
 1. **Clone and create the environment**
