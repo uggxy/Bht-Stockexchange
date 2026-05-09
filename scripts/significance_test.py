@@ -90,7 +90,7 @@ def stat_predictions(daily, wins):
         # ARIMA
         history = train.copy()
         for t_idx in range(len(test)):
-            f = ARIMA(history, order=(1, 1, 1)).fit()
+            f = ARIMA(history, order=(4, 1, 2)).fit()  # auto_arima-selected (AIC)
             arima_pred.append(float(f.forecast(steps=1).iloc[0]))
             history = pd.concat([history, pd.Series([test.iloc[t_idx]], index=[test.index[t_idx]])])
         # Holt-Winters

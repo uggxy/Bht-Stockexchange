@@ -32,7 +32,7 @@ from pathlib import Path as _Path
 CSV = str(_Path(__file__).resolve().parent.parent / "BNBL_price_report_All.csv")
 K = 6           # number of test windows
 H = 30          # length of each window in days
-P, D, Q = 1, 1, 1
+P, D, Q = 4, 1, 2   # auto_arima-selected order (AIC) on the full BNBL series
 
 
 # ----------------------------------------------------------------------
